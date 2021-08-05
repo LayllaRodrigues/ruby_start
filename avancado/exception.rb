@@ -10,12 +10,11 @@
 # end
 
 
-
 def soma(n1, n2)
-    n1 + n2
+    n1 / n2
 
 rescue Exception => e 
     puts 'Erro ao executar a soma. ' 
 end
 
-puts soma('10', 5)
+puts soma(237, 3)
